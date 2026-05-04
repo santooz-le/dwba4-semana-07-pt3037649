@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/conteudo.css" />
+    <title>CSS Dropdown - Semana 06</title>
+  </head>
+  <body id="top">
+    <header>
+      <object width="100%" height="200px" data="menu.html"></object>
+    </header>
+
+    <main id="conteudo">
+      <section>
+        <h1>Dropdown com CSS</h1>
+        <p>
+          Esta página demonstra um menu dropdown feito apenas com CSS usando
+          <code>:hover</code> e <code>:focus-within</code> (acessível via teclado).
+        </p>
+
+        <h2>Como funciona</h2>
+        <ul>
+          <li>
+            O submenu fica escondido com <code>display: none</code>.
+          </li>
+          <li>
+            Ao passar o mouse no item (<code>.dropdown:hover</code>) o submenu
+            aparece.
+          </li>
+          <li>
+            Para teclado, usamos <code>.dropdown:focus-within</code> para abrir
+            quando um link dentro do dropdown recebe foco.
+          </li>
+        </ul>
+
+        <h2>Trecho de CSS (já aplicado em <code>css/menu.css</code>)</h2>
+        <pre
+          style="
+            white-space: pre-wrap;
+            background: #0b1020;
+            color: #e5e7eb;
+            padding: 14px;
+            border-radius: 14px;
+            border: 1px solid #1f2937;
+          "
+        >
+.dropdown__menu { display: none; }
+.dropdown:hover .dropdown__menu,
+.dropdown:focus-within .dropdown__menu {
+  display: block;
+}</pre
+        >
+      </section>
+    </main>
+
+    <footer>
+      <object width="100%" height="200px" data="rodape.html"></object>
+    </footer>
+  </body>
+</html>

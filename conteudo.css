@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+#conteudo {
+    width: 100%;
+    float: right;
+}
+
+#logo-topo {
+    border-radius: 0;
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    width: auto;
+    max-width: 375px;
+    height: auto;
+}
+
+img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+figure {
+    display: inline-block;
+    border: 0px dotted gray;
+    margin: 20px;
+}
+
+figure img {
+    border-radius: 0;
+    width: 100%;
+    vertical-align: top;
+}
+
+figure figcaption {
+    border: 1px dotted blue;
+    text-align: center;
+}
+
+aside p {
+    text-align: center;
+}
+
+aside h3 {
+    text-align: left;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+
+section h2 {
+    text-align: left;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-bottom: 4px;
+}
+
+h1 {
+    text-align: center;
+}
